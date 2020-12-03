@@ -18,7 +18,8 @@ int main()
 
          while(rating_array[i]<1||rating_array[i]>max_rating)
          {
-             printf("Please enter the cafeteria rating in between 1 and 10: ");
+            printf("enter the cafeteria rating in between 1 and 10: ");
+	     printf("Student No %d",i);
              scanf("%d",&rating_array[i]);
          }
          total_rating+=rating_array[i];
